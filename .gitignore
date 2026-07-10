@@ -1,0 +1,18 @@
+# Dataset besar
+dataset/
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model machine learning besar
+*.pth
+*.h5
+*.keras
+
+# Log hasil training
+logs/
+
+# VS Code
+.vscode/
