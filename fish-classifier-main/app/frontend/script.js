@@ -2,7 +2,7 @@
 // Auto-detect: kalau dibuka di localhost -> pakai backend lokal (model baru di komputer lo).
 // Kalau di-deploy (domain lain) -> pakai server Railway.
 const LOCAL_API = "http://localhost:8000";
-const REMOTE_API = "https://fish-classifier-production-4fd2.up.railway.app";
+const REMOTE_API = "https://fish-classifier-main-vintec-production.up.railway.app";
 const isLocal = ["localhost", "127.0.0.1"].includes(window.location.hostname);
 const API_URL = isLocal ? LOCAL_API : REMOTE_API;
 
